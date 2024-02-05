@@ -20,7 +20,7 @@ header {
 
 }
 
-header > img {
+header>img {
     width: 10rem;
     height: 10rem;
     border-radius: 100%;
@@ -52,6 +52,12 @@ li {
     list-style-type: none;
     margin-top: 1.5rem;
     border-radius: 6px;
+    transition: all .3s;
+}
+
+li:hover {
+    scale: 1.05;
+    
 }
 
 a {
@@ -68,7 +74,6 @@ li p {
     font-weight: bold;
 }
 
-li  span {
+li span {
     width: 30px;
 }
-
